@@ -5,3 +5,5 @@ hello world
 
 hahhahahaha
 
+第三次提交修改的地方：使用git commit -a的方法进行提交
+
