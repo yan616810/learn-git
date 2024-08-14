@@ -1,0 +1,37 @@
+#此文件也使用git进行管理
+
+git config --global user.name YLAD-nobody
+git config --global user.email yhlad0801@gmail.com
+git config --global --list
+
+git init ylad
+
+git status
+
+git add
+git add *.txt 使用通配符将.txt文件都添加到暂存区
+git add . 末尾的点是将当前文件夹所有的文件都添加到暂存区
+git rm --cached file1.txt
+
+git commit 以命令行交互模式进行提交
+git commit -m "第一次提交" (最后写提交名)
+
+git log 查看提交记录
+git log --oneline
+
+git ls-files 查看暂存区中的文件
+
+--------------------------------------------------------------------------
+				---  《pro git》---
+--------------------------------------------------------------------------
+git add 
+1.开始跟踪一个新文件或目录
+2.将已经跟踪的文件或目录加到暂存区
+
+《git基础：撤销操作》
+1.git commit --amend
+提交最终版本时忘记添加某文件到暂存区，修改本次提交而不至于重新提交。
+用法：git add forgot-file
+	  git commit --amend
+2.
+
