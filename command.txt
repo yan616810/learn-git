@@ -32,6 +32,6 @@ git add
 1.git commit --amend
 提交最终版本时忘记添加某文件到暂存区，修改本次提交而不至于重新提交。
 用法：git add forgot-file
-	  git commit --amend
+	  git commit --amend -m '此处填写修改后的提交信息'
 2.
 
